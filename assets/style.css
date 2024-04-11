@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+
+  .overdue .card-header, 
+  .overdue .card-body,
+  .overdue .card-footer{
+background-color: red;
+color: white;
+  }
+
+  .almost-due .card-header, 
+  .almost-due .card-body, 
+  .almost-due .card-footer {
+    background-color: yellow;
+  }
+  .draggable {
+    z-index: 100;
+  }
